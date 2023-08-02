@@ -21,12 +21,24 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="manu change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTj-Fj-xLd">
+                                <rect key="frame" x="96.666666666666686" y="415.66666666666669" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dye-8D-tb2"/>
+                                    <constraint firstAttribute="width" constant="200" id="u5L-eU-vbc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="UDw-aY-7Cc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6T3-3d-8Ou"/>
                             <constraint firstItem="UDw-aY-7Cc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qHO-BY-Q7T"/>
+                            <constraint firstItem="QTj-Fj-xLd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OMp-D4-eDK"/>
+                            <constraint firstItem="QTj-Fj-xLd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VPU-OB-fe4"/>
                         </constraints>
                     </view>
                 </viewController>
